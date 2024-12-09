@@ -1,0 +1,221 @@
+/* body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.takeId{
+  width:30rem;
+  height: auto;
+  /* border:1px solid red; */
+  padding:2rem;
+  background-color: #beb6b6;
+  color: #000;
+  border-radius: .5rem;
+  box-shadow:3px 0px 12px 1px rgba(108, 77, 77, 0.908);
+}
+.takeId form{
+  width: 100%;
+  height:auto;
+}
+.takeId form h2{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #3e3939;
+}
+.takeId form .field{
+  display: flex;
+  flex-direction:column;
+  font-size: 1.5rem;
+}
+.takeId form .field input{
+  margin:.6rem 0rem;
+  padding:.6rem 0.3rem;
+  border: none;
+  background-color: #efdddd;
+  height: auto;
+  box-shadow: inset 4px 4px 6px rgba(116, 113, 113, 0.908),
+            inset -4px -6px 6px rgba(130, 124, 124, 0.908);
+}
+.takeId form button{
+  width: 100%;
+  margin: 1.5rem 0rem;
+  padding: .6rem;
+  border: none;
+  background-color: #343232;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: .5rem;
+  box-shadow:3px 0px 12px 1px rgba(108, 77, 77, 0.908);
+}
+.takeId form button:focus{
+  background-color: #77d1cc;
+  color: #000;
+}
+
+
+
+/* src/App.css */
+.App {
+    text-align: center;
+    margin: 20px;
+    width:100%;
+    /* height:100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 3rem;
+    overflow: auto;
+}
+.title{
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 2rem; 
+}
+.inputDiv{
+    /* width: 30rem; */
+    /* border:1px solid red; */
+    width: 35rem;
+    padding: 1rem;
+    height: auto;
+    margin:0 1.5rem;
+    height:5rem;
+    background-color: #beb6b6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:3px 0px 12px 1px rgba(108, 77, 77, 0.908);
+    border-radius: .5rem;
+}
+.inputDiv .convertBtn{
+    padding:0.4rem;
+    font-size:0.8rem;
+    background-color: brown;
+    color:#fff;
+    font-weight: bold;
+    /* border:none; */
+    outline:none;
+    border-radius: .5rem;
+}
+.textDiv{
+    width: 35rem;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 2.2rem 0 2.2rem 2.2rem ;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+    background-color: #beb6b6;
+    box-shadow:3px 0px 12px 1px rgba(108, 77, 77, 0.908);
+    border-radius: .5rem;
+}
+textarea{
+    width: 30rem;
+    height: 20rem;
+    padding:1rem;
+    border-radius: .5rem;
+    resize: none;
+    font-size:1rem;
+}
+textarea::-webkit-scrollbar{
+    display: none;
+}
+.shareBtn{
+    width:35rem;
+}
+.shareBtn button{
+    width:100%;
+    padding:1rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    background-color: #7bd7c5;
+    box-shadow:3px 0px 12px 1px rgba(108, 77, 77, 0.908);
+}
+.messageContainer{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1rem;
+    font-size: 1rem;
+}
+.messageContainer .messageBox textarea{
+    display:none;
+}
+.messageContainer .messageBox{
+    margin: 1rem;
+    width:40%;
+}
+.share button{
+    width:80%;
+    padding:1rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    background-color: #7bd7c5;
+    box-shadow:3px 0px 12px 1px rgba(108, 77, 77, 0.908);
+}
+
+/* Adjust font size for screens wider than 900px */
+@media (min-width: 901px) {
+    html {
+      font-size: 100%;
+    }
+  }
+  
+  /* Adjust font size for screens narrower than 900px */
+  @media (max-width :900px) {
+    html {
+      font-size: 80%;
+    }
+  }
+  @media (max-width :768px) {
+    html {
+      font-size: 70%;
+    }
+    .inputDiv{
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+    }
+    .inputDiv button{
+        width:100%;
+        padding: 1.5rem;
+    }
+  }
+  
+  /* Adjust font size for screens narrower than 320px */
+  @media (max-width : 420px) {
+    html {
+      font-size: 58%;
+    }
+    body{
+      padding: 4rem;
+    }
+  }
+  /* Adjust font size for screens narrower than 320px */
+  @media (max-width : 320px) {
+    html {
+      font-size: 60%;
+    }
+  }
+
+  
+  
+  

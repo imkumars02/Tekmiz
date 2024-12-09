@@ -1,0 +1,115 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #12121b;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #0c0c15;
+  border-bottom: 1px solid #333;
+}
+
+.app-name {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.theme-icon {
+  cursor: pointer;
+}
+
+.secondary-nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #0c0c15;
+  border-bottom: 1px solid #333;
+}
+
+.language-button {
+  background-color: #0c0c15;
+  border: none;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.language-button select {
+  background-color: #0c0c15;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.run-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.run-btn:hover {
+  background-color: #218838;
+}
+
+.editor {
+  flex: 1;
+  padding: 1rem;
+}
+
+.std-input-output {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-top: 1px solid #333;
+}
+
+.std-input, .std-output {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.std-input {
+  background-color: #0c0c15;
+}
+
+.std-output {
+  background-color: #12121b;
+}
+
+.CodeMirror, .monaco-editor {
+  border-radius: 0.5rem;
+  background-color: #1e1e1e;
+}
+
+.CodeMirror-lines {
+  color: #fff;
+}
+
+.CodeMirror pre {
+  color: #fff;
+}
+
+.vs-light .CodeMirror-lines {
+  color: #000;
+}
+
+.vs-light .CodeMirror pre {
+  color: #000;
+}
